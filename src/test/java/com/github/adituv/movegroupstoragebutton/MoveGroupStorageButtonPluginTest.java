@@ -1,13 +1,13 @@
-package com.example;
+package com.github.adituv.movegroupstoragebutton;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class MoveGroupStorageButtonPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(MoveGroupStorageButtonPlugin.class);
 		RuneLite.main(args);
 	}
 }
